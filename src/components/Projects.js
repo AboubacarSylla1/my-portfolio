@@ -1,8 +1,16 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
-export default function About() {
+export default function Projects() {
     return (
-        <section id="projects" className="mb-5">
+        <motion.section
+            id="projects"
+            className="mb-5"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+        >
             <h2 className="mb-4">Projects</h2>
 
             <div className="row">
@@ -37,6 +45,6 @@ export default function About() {
                     </div>
                 </div>
             </div>
-        </section>
+        </motion.section>
     );
 }

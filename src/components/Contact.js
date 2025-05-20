@@ -1,8 +1,16 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
-export default function About() {
+export default function Contact() {
     return (
-        <section id="contact" className="mb-5">
+        <motion.section
+            id="contact"
+            className="mb-5"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+        >
             <h2 className="mb-4">Contact</h2>
             <p>If you’d like to get in touch, feel free to send me an email or connect on LinkedIn:</p>
 
@@ -19,6 +27,6 @@ export default function About() {
                     Visit my LinkedIn
                 </a>
             </div>
-        </section>
+        </motion.section>
     );
 }
