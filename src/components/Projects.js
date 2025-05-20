@@ -14,32 +14,53 @@ export default function Projects() {
             <h2 className="mb-4">Projects</h2>
 
             <div className="row">
-                {/* Projet 1 */}
+                {/* Projet 1 : GitHub Portfolio (HTML/CSS) */}
                 <div className="col-md-6 mb-4">
-                    <div className="card h-100">
+                    <div className="card h-100 shadow-sm">
+                        <img
+                            src="/public/assets/logos/html5.svg"
+                            alt="HTML5 logo"
+                            className="card-img-top p-4"
+                            style={{ height: '150px', objectFit: 'contain' }}
+                        />
                         <div className="card-body">
                             <h5 className="card-title">GitHub Portfolio</h5>
                             <p className="card-text">
-                                A personal site to showcase my coding projects and GitHub repositories.
-                                Built with HTML, CSS, and hosted via GitHub Pages.
+                                A simple portfolio site built with HTML & CSS, hosted on GitHub Pages. It was my first step into web development.
                             </p>
-                            <a href="https://github.com/AboubacarSylla1/AboubacarSylla1.github.io" target="_blank" rel="noreferrer" className="btn btn-primary">
+                            <a
+                                href="https://github.com/AboubacarSylla1/AboubacarSylla1.github.io"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="btn btn-primary"
+                            >
                                 View on GitHub
                             </a>
                         </div>
                     </div>
                 </div>
 
-                {/* Projet 2 */}
+                {/* Projet 2 : React Portfolio */}
                 <div className="col-md-6 mb-4">
-                    <div className="card h-100">
+                    <div className="card h-100 shadow-sm">
+                        <img
+                            src="/public/assets/logos/react.svg"
+                            alt="React logo"
+                            className="card-img-top p-4"
+                            style={{ height: '150px', objectFit: 'contain' }}
+                        />
                         <div className="card-body">
-                            <h5 className="card-title">Coming Soon</h5>
+                            <h5 className="card-title">React Portfolio</h5>
                             <p className="card-text">
-                                Another project will be added here soon. Stay tuned!
+                                This portfolio was built with React and Bootstrap. It includes dark mode, smooth animations and a responsive layout.
                             </p>
-                            <a href="#" className="btn btn-secondary disabled">
-                                Not available
+                            <a
+                                href="https://github.com/AboubacarSylla1/my-portfolio"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="btn btn-primary"
+                            >
+                                View on GitHub
                             </a>
                         </div>
                     </div>
