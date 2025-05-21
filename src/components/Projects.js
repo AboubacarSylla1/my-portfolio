@@ -18,13 +18,13 @@ export default function Projects() {
                 <div className="col-md-6 mb-4">
                     <div className="card h-100 shadow-sm">
                         <img
-                            src="/public/assets/logos/html5.svg"
+                            src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
                             alt="HTML5 logo"
                             className="card-img-top p-4"
                             style={{ height: '150px', objectFit: 'contain' }}
                         />
                         <div className="card-body">
-                            <h5 className="card-title">GitHub Portfolio</h5>
+                            <h5 className="card-title">GitHub Pages Test HTML/CSS</h5>
                             <p className="card-text">
                                 A simple portfolio site built with HTML & CSS, hosted on GitHub Pages. It was my first step into web development.
                             </p>
@@ -44,13 +44,13 @@ export default function Projects() {
                 <div className="col-md-6 mb-4">
                     <div className="card h-100 shadow-sm">
                         <img
-                            src="/public/assets/logos/react.svg"
+                            src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
                             alt="React logo"
                             className="card-img-top p-4"
                             style={{ height: '150px', objectFit: 'contain' }}
                         />
                         <div className="card-body">
-                            <h5 className="card-title">React Portfolio</h5>
+                            <h5 className="card-title">React Portfolio (This website)</h5>
                             <p className="card-text">
                                 This portfolio was built with React and Bootstrap. It includes dark mode, smooth animations and a responsive layout.
                             </p>
